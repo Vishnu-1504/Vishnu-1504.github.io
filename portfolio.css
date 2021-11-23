@@ -1,0 +1,303 @@
+                @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+                @import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@500&display=swap');
+                @import url('https://fonts.googleapis.com/css2?family=Mitr:wght@500&display=swap');
+                @import url('https://fonts.googleapis.com/css2?family=Kanit&family=Lato:ital,wght@1,100&family=Roboto:ital,wght@0,100;0,900;1,700&display=swap');
+                @import url('https://fonts.googleapis.com/css2?family=M+PLUS+1:wght@500&display=swap');
+                @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@700&display=swap');
+                html {
+                    scroll-behavior: smooth;
+                }
+                
+                * {
+                    box-sizing: border-box;
+                }
+                
+                body {
+                    background-color: black;
+                    color: white;
+                    margin: 0px;
+                }
+                
+                .nav {
+                    background-color: black;
+                    margin: 0px;
+                    width: auto;
+                }
+                
+                .navlist {
+                    background-color: transparent;
+                    margin: auto;
+                    width: 100%;
+                    margin-top: 15px;
+                }
+                
+                .navlist li {
+                    display: inline-block;
+                    padding: 16px 12px;
+                }
+                
+                .navlist a {
+                    border-radius: 12px;
+                    text-decoration: none;
+                    margin-top: 9px;
+                    color: white;
+                    padding: 7px 15px;
+                    font-family: 'Alegreya Sans', sans-serif;
+                    font-size: 29px;
+                    font-weight: 900;
+                    position: relative;
+                    text-align: center;
+                    margin: 6rem 2.5rem 5.5rem 3.7rem;
+                }
+                
+                .navlist a:after {
+                    content: '';
+                    position: absolute;
+                    width: 100%;
+                    transform: scaleX(0);
+                    height: 2px;
+                    bottom: 0;
+                    left: 0;
+                    background-color: yellow;
+                    transform-origin: bottom;
+                    transition: transform 0.25s ease-out;
+                }
+                
+                .navlist a:hover:after {
+                    transform: scaleX(1);
+                    transform-origin: bottom center;
+                }
+                
+                .navlist a:visited {
+                    color: white;
+                    text-decoration: none;
+                }
+                
+                .navlist a:hover {
+                    color: cyan;
+                }
+                
+                #down {
+                    color: rgb(101, 228, 90);
+                }
+                /*The above program is for the index page*/
+                
+                .home {
+                    background-color: rgb(0, 0, 0);
+                    background: url("portpic.jpeg") no-repeat center;
+                    height: 792px;
+                    background-size: 1460px;
+                    background-repeat: no-repeat;
+                    background-position: 1px 19px;
+                    background-attachment: fixed;
+                    font-family: 'Ubuntu', sans-serif;
+                    max-width: 1440px;
+                }
+                
+                .home .one {
+                    font-family: 'Exo 2', sans-serif;
+                    font-size: 40px;
+                    font-weight: bold;
+                    margin-left: 8%;
+                    padding-top: 14%;
+                }
+                
+                .home .two {
+                    font-family: 'Exo 2', sans-serif;
+                    font-size: 40px;
+                    margin-left: 8%;
+                    font-weight: bold;
+                }
+                
+                .home .three {
+                    font-family: 'Exo 2', sans-serif;
+                    font-size: 40px;
+                    font-weight: bold;
+                    margin-left: 8%;
+                }
+                
+                span.name {
+                    font-family: 'Mitr', sans-serif;
+                    color: aqua;
+                    font-size: 60px;
+                }
+                
+                span.txt-rotate {
+                    font-size: 50px;
+                    font-weight: 800;
+                    color: gold;
+                }
+                
+                button.Download {
+                    background-color: white;
+                    padding: 12px;
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-weight: 900;
+                    position: fixed;
+                    margin-left: 2%;
+                    margin-top: 15%;
+                    border: 1px black solid;
+                    border-radius: 10px;
+                }
+                
+                button.Download:hover {
+                    background-color: rgb(221, 220, 220);
+                }
+                
+                button.Download:active {
+                    background-color: rgb(0, 255, 0);
+                }
+                /*About Page*/
+                
+                section.about {
+                    background-color: crimson;
+                    min-height: 320px;
+                }
+                
+                .heading {
+                    text-align: center;
+                    padding-top: 1%;
+                    font-size: 45px;
+                    font-family: 'Kanit', sans-serif;
+                    font-weight: 900;
+                }
+                
+                .subheading {
+                    font-family: 'Kanit', sans-serif;
+                    font-size: 17px;
+                    text-align: center;
+                    margin-top: -15px;
+                }
+                
+                .para {
+                    padding: 0px 95px 25px 95px;
+                    text-align: justify;
+                    font-size: 19px;
+                    font-family: 'M PLUS 1', sans-serif;
+                    font-weight: 500;
+                }
+                /* skills */
+                
+                section.skills {
+                    margin-left: 50px;
+                    min-height: 620px;
+                }
+                
+                .card {
+                    width: 130px;
+                    height: 174px;
+                    text-align: center;
+                    padding: 20px 20px 20px 20px;
+                    border-radius: 12%;
+                    background-color: whitesmoke;
+                    display: inline-block;
+                    box-shadow: 0 3px 10px;
+                }
+                
+                .card+.card {
+                    margin-left: 80px;
+                }
+                
+                .card-header>img {
+                    width: 100px;
+                    height: 100px;
+                    text-align: center;
+                }
+                
+                .contact-cards {
+                    margin-top: 9px;
+                }
+                
+                .card-body {
+                    color: black;
+                    font-family: 'Ubuntu', sans-serif;
+                    font-size: 21px;
+                    font-weight: bolder;
+                    text-align: center;
+                }
+                
+                .card:hover {
+                    background-color: rgb(201, 199, 199);
+                }
+                
+                .card-all {
+                    text-align: center;
+                    padding-top: 28px;
+                }
+                
+                img.js {
+                    border-radius: 20px;
+                }
+                
+                img.java {
+                    height: 88px;
+                    padding-bottom: 25px;
+                }
+                
+                img.mongodb {
+                    text-align: center;
+                    height: 43px;
+                    margin-top: 7px;
+                    margin-bottom: 38px;
+                }
+                
+                .card-level2 {
+                    margin-top: 40px;
+                }
+                /* Contact Page */
+                
+                section.contact {
+                    background-color: whitesmoke;
+                    min-height: 160px;
+                    text-align: center;
+                    position: relative;
+                }
+                
+                span.instagram {
+                    margin-top: 12px;
+                }
+                
+                span>img+img {
+                    margin-left: 20px;
+                }
+                
+                .imggithub {
+                    width: 35px;
+                    margin-top: -20px;
+                }
+                
+                .imglinkedin {
+                    width: 35px;
+                    margin-top: -2px;
+                    margin-left: 20px;
+                }
+                
+                .imginsta {
+                    width: 37px;
+                    margin-top: 1px;
+                    margin-left: 20px;
+                }
+                
+                .imgmail {
+                    width: 35px;
+                    margin-left: 20px;
+                }
+                
+                .contactheading {
+                    text-align: center;
+                    padding-top: 1%;
+                    font-size: 45px;
+                    font-family: 'Kanit', sans-serif;
+                    font-weight: 900;
+                    color: black;
+                }
+                
+                section.contact>.subheading {
+                    color: black;
+                }
+                
+                section.home>.subhome>.three>span.typing {
+                    font-size: 50px;
+                    font-weight: 800;
+                    color: gold;
+                }
