@@ -1,4 +1,4 @@
-                @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+                               @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
                 @import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@500&display=swap');
                 @import url('https://fonts.googleapis.com/css2?family=Mitr:wght@500&display=swap');
                 @import url('https://fonts.googleapis.com/css2?family=Kanit&family=Lato:ital,wght@1,100&family=Roboto:ital,wght@0,100;0,900;1,700&display=swap');
@@ -29,11 +29,13 @@
                     margin: auto;
                     width: 100%;
                     margin-top: 15px;
+                    margin-left: -4px;
                 }
                 
                 .navlist li {
+                    background-color: transparent;
                     display: inline-block;
-                    padding: 16px 12px;
+                    padding: 20px 0px;
                 }
                 
                 .navlist a {
@@ -41,7 +43,7 @@
                     text-decoration: none;
                     margin-top: 9px;
                     color: white;
-                    padding: 7px 15px;
+                    padding: 7px 4px;
                     font-family: 'Alegreya Sans', sans-serif;
                     font-size: 29px;
                     font-weight: 900;
@@ -243,6 +245,72 @@
                 
                 .card-level2 {
                     margin-top: 40px;
+                }
+                /* Projects Page */
+                
+                section.project {
+                    background-color: #0200F0;
+                    min-height: 320px;
+                    text-align: center;
+                    padding-bottom: 40px;
+                }
+                
+                .prjcard {
+                    margin-top: 15px;
+                    border: 2px white double;
+                    text-align: center;
+                    background-color: white;
+                    width: fit-content;
+                    color: black;
+                    border-radius: 20px;
+                    display: inline-block;
+                    margin-left: 9px;
+                }
+                
+                .prjcard2 {
+                    border: 5px blue solid;
+                    padding-left: 34px;
+                    padding-right: 34px;
+                    font-family: 'M PLUS 1', sans-serif;
+                    border-radius: 20px;
+                }
+                
+                .prjcard2n {
+                    border: 5px blue solid;
+                    background-color: rgb(240, 240, 116);
+                    padding-left: 34px;
+                    padding-right: 34px;
+                    font-family: 'M PLUS 1', sans-serif;
+                    border-radius: 20px;
+                }
+                
+                p.name {
+                    font-family: "Alegreya Sans", sans-serif;
+                    font-size: 29px;
+                    font-weight: 900;
+                    margin-bottom: -10px;
+                }
+                
+                p.tools {
+                    font-family: 'Courier New', Courier, monospace;
+                }
+                
+                span.re {
+                    color: red;
+                    font-size: 23px;
+                    margin-right: -10px;
+                }
+                
+                span.bl {
+                    color: rgb(0, 150, 250);
+                    font-size: 23px;
+                    margin-right: -10px;
+                }
+                
+                span.ye {
+                    color: rgb(184, 184, 0);
+                    font-size: 23px;
+                    margin-right: -10px;
                 }
                 /* Contact Page */
                 
